@@ -1,32 +1,74 @@
-Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
-=========================
+## Créer compte GitHub
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+Envoyer à Colin pour qu'ils vous donne accès à 
 
-## How to use
- - Place a image in `/img/portfolio/`
- - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
- - Create posts to display your projects. Use the follow as an example:
-```txt
+https://github.com/breizhdataday/breizhdataday.github.io
+
+## Créer un speaker 
+
+![](readmefig/repo.png)
+
+-> Ajouter sa photo dans le dossier img/speaker, en cliquand sur le bouton "Add files" en haut à droite. 
+
+Taille des photos : 300x300
+
+![](readmefig/img.png)
+
+-> Créer un nouveau fichier dans _conf ou _workshop : le premier est pour le grand public, le second pour tech. Il y a un bouton "create new file" en haut à droite.
+
+-> appeler ce fichier `nom-prenom.markdown`
+
+-> Dans ce fichier, copier et remplir : 
+
+```
 ---
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: cabin.png
-alt: image-alt
-project-date: July 2014
-client: The Client
-category: Web Development
-description: The description of the project
-
+date: 2019-11-07
+img: TBA.png
+alt: TBA
+project-date: 07 novembre 2019
+qui: TBA
+boite: TBA
+position: TBA<br>
+category: Workshop
+description: TBA.
+description-longue : TBA
 ---
 ```
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
++ Modifiez le modal-id avec `prenomnom`, pour prenom nom du speakder
++ img : le nom du fichier image
++ alt : prenom-nom du speaker
++ qui : prenom et nom en toutes lettres
++ boite : société 
++ position : poste occupé (laissez le `<br>`)
++ category : Workshop ou Conférence (correspond à tech ou grand public)
++ description : descritpion courte de la conf
++ description-longue : description longue de la conf 
 
-## Screenshot
-![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
+__Attention, Aucun de ces champs ne doit contenir de `:` dans leurs contenus__
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+![](readmefig/remplir.png)
+ 
+Cliquer sur "Commit new file" tout en bas de la page
+
+![](readmefig/commit.png)
+
+## Modifier 
+
++ Ouvrir le fichier sur Github
+
++ Cliquer sur le crayon en haut à droite 
+
+![](readmefig/crayon.png)
+
++ cliquer sur "commit changes" en bas de la page
+
+## Supprimer fichier 
+
++ Plutôt que Crayon, on va cliquer sur Poubelle
+
+## Publier
+
+Pas besoin de vous occuper de la publication, le site se met à jour dès que vous cliquez sur "Commit..."  dans les étapes du dessus.
