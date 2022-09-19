@@ -53,7 +53,7 @@ address:
   - line: 22440 Ploufragan
 
 # Credits content
-credits: 'Créé avec Jekyll et le thème Freelancer.'
+credits: 'Créé avec Jekyll et le thème Freelancer, généré sur Github.'
 
 # Build settings
 markdown: kramdown
